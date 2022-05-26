@@ -1,24 +1,9 @@
-# README
+# Темплейт для старта нового приложения
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Использование:
 
-Things you may want to cover:
+```sh
+git clone git@github.com:rtkit-ulsk/rtk-backend-rails-api-template.git <folder-name>
+```
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Для удобной разработки все завернуто в [Docker](https://www.docker.com/)

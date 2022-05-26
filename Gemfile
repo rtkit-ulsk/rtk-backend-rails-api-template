@@ -1,13 +1,13 @@
-source "https://rubygems.org"
+source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby "3.1.2"
+ruby '3.1.2'
 
-gem "rails", "~> 7.0.3"
-gem "pg"
-gem "puma", "~> 5.0"
+gem 'pg'
+gem 'puma', '~> 5.0'
+gem 'rails', '~> 7.0.3'
 
-gem "bootsnap", require: false
+gem 'bootsnap', require: false
 
 group :development do
   gem 'fasterer'
@@ -16,5 +16,5 @@ group :development do
 end
 
 group :development, :test do
-  gem "debug", platforms: %i[ mri mingw x64_mingw ]
+  gem 'debug', platforms: %i[mri mingw x64_mingw]
 end
